@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("Hello Git!");
+    printf("Hello Git!"); //Code added
     return 0;
 }
