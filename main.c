@@ -2,6 +2,10 @@
 
 int main()
 {
-    printf("Hello Git!"); //Code added
+    if (1)
+    {
+        printf("Hello Git!"); //Code added
+    }
+    
     return 0;
 }
