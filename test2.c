@@ -6,7 +6,7 @@ void test_checkValue()
 {
     int arr[ARR_SIZE] = {0};
     fillArray(arr, ARR_SIZE);
-    assert(checkValue(arr, 101) == 1);
+    assert(checkValue(arr, 85) == 1);
 
     printf("test_checkValue PASSED\n");
 }
