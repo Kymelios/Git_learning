@@ -10,13 +10,13 @@ pipeline {
         
         stage('Build') {
             steps {
-                sh 'make'
+                sh 'rm -rf build && mkdir build && cd build && cmake .. && make'
             }
         }
         
         stage('Test') {
             steps {
-                sh './test_suite'
+                sh 'cd build && ctest'
             }
         }
     }
